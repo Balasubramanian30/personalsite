@@ -553,6 +553,23 @@ footer span a:hover{
 
 
 /* responsive media query start */
+@media (max-width:678px){
+    html {
+        overflow-x: hidden;
+    }
+    .home {
+        display: flex;
+        background: url("images/main.jpg") no-repeat center;
+          background-attachment: scroll;
+          background-size: auto;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        background-size: 316px 500px;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+      }
+}
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
